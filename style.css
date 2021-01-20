@@ -1,0 +1,117 @@
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+.headerimg
+{
+    justify-content: flex-start;
+    padding: 0 2rem;
+    height: 2rem;
+
+}
+.headernav
+{
+    display: flex;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+.link1
+{
+    padding: 0 15px 0 15px;
+}
+.headerNavLink
+{
+    display: contents;
+    justify-content: center;
+    max-width: max-content;
+    
+}
+.hosting
+{
+    display: block;
+}
+.hostmain
+{
+    display: flex;
+    float: left;
+    width:65%;
+    font-family: "raleway","sans-serif";
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding: 10px;
+}
+.host1
+{
+    background-color: white;
+    border-radius: 20px;
+}
+.hostsection
+{
+    display: flex;
+    float: left;
+    width: 30px;
+    margin-right: 2%;
+}
+.subtitle
+{
+    display: flex;
+    flex-direction: column;
+}
+.subtitle1
+{
+    font-weight: bold;
+}
+.img 
+{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.img2
+{
+    width: 100%;
+
+}
+.img3
+{
+    width: 100%;
+}
+.afficher
+{
+    display: block;
+}
+.popular
+{
+    display: block;
+    float:right;
+    width: 25%;
+}
+.activity
+{
+    display: flex;
+    width: 100% ;
+}
+.activitytitle
+{
+    display: flex;
+
+}
+.footer
+{
+    display: block;
+    background-color:  #F2F2F2;
+    width: 100%;
+}
+.footerblock
+{
+    display: flex;
+
+}
