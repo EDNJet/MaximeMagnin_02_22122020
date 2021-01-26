@@ -1,10 +1,13 @@
 body
 {
     font-family: "raleway", "sans-serif";
-    left: 30px;
 }
 *{
     margin: 0; padding: 0;
+}
+.main
+{
+    padding: 0 3rem;
 }
 .header
 {
@@ -12,28 +15,23 @@ body
     justify-content: space-between;
     height: 70px;
     margin-top: 40px;
+    padding: 0 3rem;
 }
 .headerimg
 {
     justify-content: flex-start;
-    padding: 0 2rem;
-    height: 2rem;
+    padding: 1rem;
+    height: 3rem;
 
 }
 .headernav
 {
     display: flex;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    
 }
 .link1
 {
     padding: 0 15px 0 15px;
+    color: blue;
 }
 .headerNavLink
 {
@@ -41,26 +39,128 @@ body
     justify-content: center;
     max-width: max-content;  
 }
+.searchHeader
+{
+    padding: 1rem;
+}
+.searchform
+{
+    padding: 1rem;
+    display: flex;
+}
+.searchresult
+{
+    padding: 1rem;
+}
 .searchfilter
 {
     display: flex;
+    padding: 1rem;
+
+}
+.searchtitle2
+{
+    display: flex;
+    flex-direction: column;
+}
+.searchfilter2
+{
+    display: flex;
+    align-items: center;
+    border: 2px solid #e2e2e2;
+    border-radius: 2rem;
+}
+.filterspan
+{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+}
+.icon
+{
+    background-color: #f2f2f2;
+    border-radius: 100%;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -3px;
+    color: blue;
+}
+.searchicon
+{
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.searchbutton
+{
+    background-color: #0065fc;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    border: none;
+}
+.searchbarre
+{
+    width: 200px;
+    padding: 1rem;
+    font-weight: bold;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: #f2f2f2 solid;
+    border-bottom: #f2f2f2 solid;
+}
+.search3
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.searchresult
+{
+    display: flex;
+}
+.searchresulttext
+{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+.searchresulticon
+{
+    color: #0065fc;
+    display: flex;
+    height: 1.5rem;
+    width: 1.5rem;
+    border: solid #dcdbdb;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
 }
 .hosting
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .hostmain
 {
     display: flex;
-    flex-wrap: wrap;
-    padding: 0.5rem;
+    flex-direction: column;
+    padding: 1rem;
     background-color: #F2F2F2;
     border-radius: 40px;
-    width: 55%;
+    width: 65%;
     height: 600px;
-    align-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+}
+.hostcard
+{
+    display: flex;
+    flex-wrap: wrap;
 }
 .hostpopular
 {
@@ -68,8 +168,8 @@ body
     border-radius: 40px;
     background-color: #F2F2F2;
     flex-direction: column;
-    width: 25%;
-    height: 600px;
+    width: 30%;
+    height: 800px;
     align-items: center;
     justify-content: center;
 }
@@ -81,17 +181,33 @@ body
 .hostsection
 {
     display: block;
-    align-content: center;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 0.2);
+    margin: 1.5rem;
+    padding: 0.25rem;
+    border-radius: 20px;
+    height: 200px;
+    width: 27%;
+    background-color: white;
+    
+}
+.card
+{
+    display: flex;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 20%);
     margin: 2rem;
     padding: 0.25rem;
     border-radius: 20px;
-    
+    background-color: white;
 }
 .hostimg
 {
-    width: 200px;
-    height: 150px;
+    width: 100%;
+    height: 60%;
+}
+.hostimg2
+{
+    width: 40%;
+    height: 100%;
 }
 .hostimg > img
 {
@@ -100,6 +216,14 @@ body
     object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+.hostimg2 > img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;   
 }
 .subtitle
 {
@@ -113,9 +237,17 @@ body
 {
     display: block;
 }
-.activity
+.activitysection
 {
-    display: flex;
+    display: block;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 0.2);
+    margin: 1.5rem;
+    padding: 0.25rem;
+    border-radius: 20px;
+    height: 200px;
+    width: 27%;
+    background-color: white;
+    
 }
 .activitytitle
 {
