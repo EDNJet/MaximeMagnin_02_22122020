@@ -4,17 +4,22 @@ body
 }
 *{
     margin: 0; padding: 0;
+    font-family: "raleway", sans-serif;
 }
 main
 {
     padding: 0 3rem;
+}
+a
+{
+    text-decoration: none;
+    color: black;
 }
 .header
 {
     display: flex;
     justify-content: space-between;
     height: 70px;
-    margin-top: 40px;
     padding: 0 3rem;
 }
 .headerimg
@@ -28,10 +33,23 @@ main
 {
     display: flex;
 }
-.link1
+.link2
 {
     padding: 0 15px 0 15px;
     color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: solid;
+}
+.link1
+{
+    padding: 0 15px 0 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: solid;
 }
 .headerNavLink
 {
@@ -62,6 +80,7 @@ main
 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .searchfilter2
 {
@@ -119,6 +138,7 @@ main
 {
     margin-left: 1rem;
     margin-right: 1rem;
+    font-weight: bold;
 }
 .searchresult
 {
@@ -227,15 +247,32 @@ main
 }
 .subtitle
 {
-    padding: 0.5rem;
+    margin: 0 1rem;
 }
 .subtitle1
 {
     font-weight: bold;
+    margin-top: 0.5rem;
+}
+.subtitle2
+{
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+.fa, .fas
+{
+    color:#0065fc;
+}
+.titre
+{
+    margin-inline-start: 30px;
 }
 .afficher
 {
     display: block;
+    font-weight: bold;
+    margin-inline-start: 30px;
+    font-size: larger;
 }
 .activity
 {
