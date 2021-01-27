@@ -220,7 +220,7 @@ a
     padding: 0.25rem;
     border-radius: 20px;
     background-color: white;
-    height: 75%;
+    height: 135px;
 }
 .popularsection
 {
@@ -267,6 +267,10 @@ a
 .subtitle
 {
     margin: 0 1rem;
+}
+.subtitlepopular
+{
+    margin: 0 2rem;
 }
 .subtitle1
 {
