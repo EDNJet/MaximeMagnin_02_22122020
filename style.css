@@ -92,7 +92,7 @@ a
 .filterspan
 {
     display: flex;
-    width: 75%;
+    width: 60%;
     justify-content: space-around;
 }
 .icon
@@ -139,6 +139,7 @@ a
     margin-left: 1rem;
     margin-right: 1rem;
     font-weight: bold;
+    font-size: large;
 }
 .searchresult
 {
@@ -164,7 +165,7 @@ a
 .hosting
 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .hostmain
 {
@@ -173,8 +174,7 @@ a
     padding: 1rem;
     background-color: #F2F2F2;
     border-radius: 40px;
-    width: 65%;
-    height: 600px;
+    width: 63%;
     justify-content: space-evenly;
 }
 .hostcard
@@ -189,7 +189,7 @@ a
     padding: 1rem;
     background-color: #F2F2F2;
     border-radius: 40px;
-    width: 25%;
+    width: 30%;
 }
 .hosttitle
 {
@@ -278,6 +278,11 @@ a
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
 }
+.subtitlecard
+{
+    margin-top: 0.25rem;
+    margin-bottom: 2rem;
+}
 .fa, .fas
 {
     color:#0065fc;
@@ -308,12 +313,8 @@ a
 }
 .activitysection
 {
-    display: block;
-    box-shadow: 1px 1px 10px rgb(0 0 0 / 0.2);
     margin: 1.5rem;
     padding: 0.25rem;
-    border-radius: 20px;
-    background-color: white;
     
 }
 .activitytitle
@@ -321,35 +322,20 @@ a
     display: flex;
 
 }
-.colonne1
+.colonne
 {
     display: flex;
     flex-direction: column;
-
-}
-.colonne2
-{
-    display: flex;
-    flex-direction: column;
-}
-.colonne3
-{
-    display: flex;
-    flex-direction: column;
-}
-.colonne4
-{
-    display: flex;
-    flex-direction: column;
+    width: 25%;
 }
 .host2
 {
-    box-shadow: 0 0 20px #0000002e;
-    border-radius: 1rem;
+    box-shadow: 1px 1px 20px #0000002e;
+    border-radius: 20px;
     display: flex;
     background-color: white;
     flex-direction: column;
-    height: 500px;
+    height: 450px;
 }
 .img2
 {
@@ -360,8 +346,10 @@ a
 .img3
 {
     width: 100%;
-    height: 100%;
+    height: 85%;
     object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .footer
 {
