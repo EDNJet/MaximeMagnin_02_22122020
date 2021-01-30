@@ -234,12 +234,9 @@ a
 }
 .hostimg2
 {
-    width: 40%;
+    MAX-WIDTH: 150px;
 }
-.hostimg3
-{
-    width: 60%;
-}
+
 .hostimg > img
 {
     width: 100%;
@@ -270,7 +267,7 @@ a
 }
 .subtitlepopular
 {
-    margin: 0 2rem;
+    margin: 0 3rem;
 }
 .subtitle1
 {
