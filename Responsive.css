@@ -1,0 +1,28 @@
+/*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 780px*/
+@media screen and (max-width: 780px){
+    html{
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        padding: 0;margin: 0rem;
+    }
+    body{
+        background-color: chocolate;
+    }
+    .searchfilter{
+    flex-flow: column;
+    }
+   .hosting{
+        flex-direction: column;
+    }
+    .hostcard{
+        flex-flow: column;
+        width: 100%;
+    }
+    .hostmain{
+        flex-direction: column;
+    }
+    .hostpopular{
+        flex-direction: column;
+    }
+}
