@@ -1,28 +1,100 @@
 /*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 780px*/
-@media screen and (max-width: 780px){
+@media screen and (max-width: 812px){
     html{
         max-width: 100%;
-        width: 100%;
         display: block;
         padding: 0;margin: 0rem;
     }
-    body{
-        background-color: chocolate;
+    main{
+        padding: 0;
     }
     .searchfilter{
-    flex-flow: column;
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding: 0ch;
+    }
+    .searchfilter2{
+        margin: 0.5rem;
+    }
+    .searchtitle2{
+        margin-bottom: 0.5rem;
+        margin-left: 1rem;
+    }
+    .filterspan{
+        flex-wrap: wrap;
+        max-width: 100%;
+        WIDTH: 100%;
+        JUSTIFY-CONTENT: flex-start;
     }
    .hosting{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .hostcard{
         flex-flow: column;
-        width: 100%;
+        max-width: 100%;
     }
     .hostmain{
         flex-direction: column;
+        flex-direction: column;
+        PADDING: 0;
+        width: 100%;
+        background-color:white;
+    }
+    .hostsection{
+        flex-basis: 100%;
+        WIDTH: auto;
+    }
+    .afficher{
+        margin-top: 2rem;
     }
     .hostpopular{
         flex-direction: column;
+        PADDING: 0;
+        FLEX-BASIS: 100%;
+        max-width: 100%;
+        border-radius: 0;
+        width: 100%;
     }
+    .subtitlepopular{
+        margin: 0 1rem;
+    }
+    .card{
+        margin: 0.5rem;
+    }
+    .activity{
+        max-width: 100%;
+    }
+    .activitysection{
+        flex-direction: column;
+        align-items: center;
+    }
+    .colonne
+    {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: auto;
+    }
+    .colonne2{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: auto;
+    }
+    .host2{
+        WIDTH: auto;
+        margin: 1.5rem;
+        height: 200px;
+    }
+    .footer{
+        max-width: 100%;
+        WIDTH: 100%;
+        FLEX-DIRECTION: column;
+        height: 600px;
+    }
+    .footercolonne{
+        width: 100%;
+    }
+
+
 }
