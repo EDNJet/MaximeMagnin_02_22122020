@@ -56,7 +56,11 @@
         width: 100%;
     }
     .subtitlepopular{
-        margin: 0 1rem;
+        margin: 0.5rem;
+    }
+    .subtitlecard{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     .card{
         margin: 0.5rem;

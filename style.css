@@ -34,8 +34,8 @@ a
 }
 .link2
 {
-    padding: 0 15px 0 15px;
-    color: blue;
+    padding: 0 30px 0 30px;
+    color: #0065fc;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +43,7 @@ a
 }
 .link1
 {
-    padding: 0 15px 0 15px;
+    padding: 0 30px 0 30px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@ a
     flex-direction: column;
     justify-content: center;
 }
-.searchfilter2
+.iconfilter
 {
     display: flex;
     align-items: center;
@@ -104,7 +104,7 @@ a
     align-items: center;
     justify-content: center;
     margin: -3px;
-    color: blue;
+    color: #0065fc;
 }
 .searchicon
 {
@@ -122,6 +122,7 @@ a
     padding: 1rem;
     font-weight: bold;
     border: none;
+    cursor: pointer;
 }
 .searchbarre
 {
@@ -388,7 +389,14 @@ a
 }
 .subtitle4
 {
-    height: 11%;
+    height: 3rem;
+    DISPLAY: flex;
+    align-items: flex-end;
+    margin-left: 2rem;
+}
+.subtitle5
+{
+    height: 3rem;
     DISPLAY: flex;
     align-items: flex-end;
     margin-left: 2rem;
@@ -415,4 +423,15 @@ a
 .footerdescription
 {
     margin-top: 1rem;
+}
+a:hover {
+    transform: scale(1.12)  ;/* On modifie la couleur du fond au passage de la souris */
+    }
+.hostsection:hover
+{
+    transform: scale(1.12);
+}
+.searchfilter2
+{
+    transform: scale(1.12);
 }
