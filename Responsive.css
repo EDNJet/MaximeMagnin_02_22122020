@@ -1,5 +1,5 @@
 /*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 780px*/
-@media screen and (max-width: 812px){
+@media screen and (max-width: 900px){
     html{
         max-width: 100%;
         display: block;
@@ -8,14 +8,45 @@
     .header{
         width: 100%;
         MAX-WIDTH: 100%;
-        PADDING: 0 0.75rem;
+        PADDING: 0;
         flex-wrap: wrap;
+    }
+    .headercontent{
+        display: contents;
+    }
+    .headernav{
+        width: 100%;
+        JUSTIFY-CONTENT: space-between;
     }
     .headerimg{
         margin-bottom: 0.5rem;
     }
+    .headerlink{
+        margin-bottom: 1rem;
+    }
+    .link1{
+        FLEX-DIRECTION: inherit;
+        width: 50%;
+        PADDING: 0;
+        BORDER-BOTTOM: solid #f2f2f2;
+    }
     .link2{
         padding: 0;
+        WIDTH: 50%;
+        JUSTIFY-CONTENT: center;
+        FLEX-DIRECTION: inherit;
+        border-bottom: solid #0065fc;
+        border-top: none;
+    }
+    .searchtitle{
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    .searchform{
+        margin-bottom: 1.5rem;
+    }
+    .titre{
+        margin-bottom: 1.5rem;
     }
     main{
         padding: 0;
