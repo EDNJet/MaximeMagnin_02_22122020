@@ -8,7 +8,7 @@ body
 }
 main
 {
-    padding: 0 3rem;
+    padding: 0 3rem;   
 }
 a
 {
@@ -137,6 +137,13 @@ a
     font-weight: bold;
     border: none;
     cursor: pointer;
+}
+.searchtext2
+{
+    display: block;
+}
+.buttonicon{
+    display: none;
 }
 .searchbarre
 {
@@ -278,6 +285,9 @@ a
 .subtitlepopular
 {
     margin: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .subtitle1
 {
@@ -292,11 +302,6 @@ a
 .subtitle3
 {
     margin-top: 0.5rem;
-}
-.subtitlecard
-{
-    margin-top: 0.25rem;
-    margin-bottom: 2.5rem;
 }
 .fa, .fas
 {

@@ -54,10 +54,20 @@
     .searchbarre{
         WIDTH: 75%;
     }
+    .searchtext2{
+        display: none;
+    }
+    .searchbutton{
+        border-radius: 30%;
+    }
+    .buttonicon{
+        display: block;
+    }
     .searchresult{
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+
     .searchfilter{
         max-width: 100%;
         flex-wrap: wrap;
